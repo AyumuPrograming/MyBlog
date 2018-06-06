@@ -1,0 +1,8 @@
+$keycolor: #0480fe;
+$border-keycolor: 1px solid $keycolor;
+section {
+  border: $border-keycolor;
+  h1{
+    color: $keycolor;
+  }
+}
