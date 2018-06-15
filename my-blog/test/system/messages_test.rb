@@ -14,7 +14,6 @@ class MessagesTest < ApplicationSystemTestCase
     visit messages_url
     click_on "New Message"
 
-    fill_in "", with: @message.
     fill_in "Message", with: @message.message
     fill_in "Title", with: @message.title
     click_on "Create Message"
@@ -27,7 +26,6 @@ class MessagesTest < ApplicationSystemTestCase
     visit messages_url
     click_on "Edit", match: :first
 
-    fill_in "", with: @message.
     fill_in "Message", with: @message.message
     fill_in "Title", with: @message.title
     click_on "Update Message"

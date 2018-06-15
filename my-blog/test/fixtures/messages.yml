@@ -2,10 +2,8 @@
 
 one:
   title: MyString
-  : MyString
   message: MyString
 
 two:
   title: MyString
-  : MyString
   message: MyString
